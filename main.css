@@ -1,0 +1,22 @@
+    .column {
+        float: left;
+        width: 30%;
+        height: 50px;
+        background-color: crimson;
+       margin: 10px;
+        
+    }
+    
+    @media (max-width: 991px) {
+        .column {
+            background-color: black;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .column {
+            background-color: lime;
+            width: 100%;
+            margin: 10px 0px;
+        }
+    }
